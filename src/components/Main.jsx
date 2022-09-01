@@ -11,12 +11,10 @@ import profile1 from "../assets/profile-1.png";
 import profile2 from "../assets/profile-2.png";
 import profile3 from "../assets/profile-3.png";
 import weekly from "../assets/weekly.png";
-// import class from "./chartBar.module.css";
-
 const Main = () => {
   return (
     <>
-      <div className="bg-[#F3F3F3] sm:rounded-tl-3xl rounded-none sm:rounded-bl-3xl h-full w-full">
+      <div className="bg-[#F3F3F3] pb-0 window:pb-0  sm:rounded-tl-3xl rounded-none sm:rounded-bl-3xl h-full w-full">
         <div className="px-5 justify-between p-4 mx-5 sm:px-10 flex">
           <h1 className="text-2xl">Home</h1>
           <div className="relative mt-2 max-w-md ml-10 flex rounded-full bg-[#e9e9ea] border border-gray-300 pl-1 pb-1 items-end justify-between text-right place-items-end focus-within:border-blue-500 focus-within:ring-blue-200 focus-within:ring-4">
@@ -40,7 +38,7 @@ const Main = () => {
 
             <div className="mt-0 px-3 p-4 mx-5 sm:px-10 grid md:grid-cols-2 gap-8">
               {/* card 1 */}
-              <div className="bg-white w-full mx-2 rounded-lg">
+              <div className="bg-white w-full mx-2 rounded-lg hover:scale-105 ease-in duration-300">
                 {/* <div className="relative flex bg-white h-auto w-full rounded-xl p-4 group"> */}
                 {/* <div className=""></div> */}
                 <div className="m-3 sm:m-5 flex rounded-lg ">
@@ -63,7 +61,7 @@ const Main = () => {
                   </h2>
                 </div>
                 <div className="flex m-3 sm:m-5 ">
-                  <img src={playButton} alt="/playbutton" className="px-1" />
+                  <img src={playButton} alt="/playbutton" className="hover:scale-110 ease-in duration-300 px-1" />
                   <p className="text-gray-500 px-1">25 lessons</p>
                   <img src={level} alt="/difficultyLevel" className="px-1" />
                   <p className="text-gray-500 px-1">Easy</p>
@@ -72,7 +70,7 @@ const Main = () => {
 
               {/* card 2 */}
 
-              <div className="bg-white w-full mx-2 rounded-lg">
+              <div className="bg-white w-full mx-2 rounded-lg hover:scale-105 ease-in duration-300">
                 {/* <div className=""></div> */}
                 <div className="relative m-3 sm:m-5 flex rounded-lg ">
                   <img
@@ -92,7 +90,7 @@ const Main = () => {
                   <h2 className="w-full font-semibold">Design Terminology</h2>
                 </div>
                 <div className="flex m-3 sm:m-5 ">
-                  <img src={playButton} alt="/playbutton" className="px-1" />
+                  <img src={playButton} alt="/playbutton" className="hover:scale-110 ease-in duration-300 px-1" />
                   <p className="text-gray-500 px-1">25 lessons</p>
                   <img src={level} alt="/difficultyLevel" className="px-1" />
                   <p className="text-gray-500 px-1">Easy</p>
@@ -105,7 +103,7 @@ const Main = () => {
             </div>
 
             {/* card 3 */}
-            <div className="bg-white mb-5 sm:w-[70%] mx-2 sm:ml-20 mt-2 rounded-2xl">
+            <div className="bg-white hover:scale-105 ease-in duration-300 mb-5 sm:w-[70%] mx-2 sm:ml-20 mt-2 rounded-2xl ">
               {/* <div className=""></div> */}
               <div className="">
                 <h2 className="text-2xl m-4 sm:ml-3 pt-2 flex rounded-lg text-gray-800 sm:p-3">
@@ -129,7 +127,7 @@ const Main = () => {
                 </div>
               </div>
               <div className=" items-start justify-between p-2 text-start place-items-start w-full sm:p-6">
-                <button className="rounded-lg ml-3 bg-[#5627FF] text-gray-200 pl-308px p-2 px-5">
+                <button className="rounded-lg ml-3 hover:scale-105 ease-in duration-300 hover:text-bold bg-[#5627FF] text-gray-200 pl-308px p-2 px-5">
                   Browse Courses
                 </button>
               </div>
@@ -140,8 +138,8 @@ const Main = () => {
             </div>
           </div>
 
-          {/* col 2 */}
-          <div className="flex-col-1 pr-3 pl-3">
+  {/* col 2 */}
+          <div className="hover:scale-105 ease-in duration-300 flex-col-1 pr-3 pl-3">
             <div className="items-center justify-between text-center">
               <img
                 src={iconRectangle}
@@ -149,7 +147,7 @@ const Main = () => {
                 className="tracking-widest max-h-[80px] w-full items-center"
               />
             </div>
-            <div className="  h-screen w-full flex flex-col items-center bg-[#ffffff] ">
+            <div className="  h-full w-full flex flex-col items-center bg-[#ffffff] ">
               <img
                 src={KImg}
                 alt="/Kimg"
@@ -163,7 +161,7 @@ const Main = () => {
               </div>
 
               <div className="pt-5 mt-5 w-full">
-                <h1 className="ml-[5%] font-mediumbold text-xl text-black relative">
+                <h1 className="ml-[5%] font-mediumbold text-xl sm:text-base text-black relative">
                   Profile Strength
                 </h1>
                 {/* flex items-center justify-between max-w-[330px] m-auto py-4 */}
@@ -184,24 +182,17 @@ const Main = () => {
               </div>
 
               <div className="mt-10 w-full flex">
-                <h1 className="ml-[5%] font-mediumbold text-xl text-black">
+                <h1 className="ml-[5%] w-full font-mediumbold text-xl sm:text-base text-black">
                   Weekly Activity
                 </h1>
                 <img
                   src={weekly}
                   alt=""
-                  className="sm:ml-[40%] ml-[50%] m-auto h-5 items-end"
+                  className="sm:ml-[40%]  ml-[50%] mr-2 m-auto h-5 items-end"
                 />
-                {/* <div className="w-full p-2">
-                  <div className="chart-bar">
-                    <div className="chart-bar__inner">
-                      <div className={class.chart-bar__fill}>guyg</div>
-                    </div>
-                    <div className="chart-bar__label">hu</div>
-                  </div>
-                </div> */}
+                
               </div>
-              {/* <div className=" flex items-center bg-[black] justify-between max-w-1 h-20 ml-[5%] py-4"></div> */}
+
               <div className=" flex items-center justify-between max-w-full  h-48 py-4">
                 <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
                   <div className="relative p-2 h-[10%] mt-[700%] border-[#bbbbbf] bg-[#bbbbbf] border items-center text-center justify-between place-items-center"></div>
@@ -235,7 +226,7 @@ const Main = () => {
               <div className="w-full mt-5 ml-5 p-5">
                 <div className="py-2 flex">
                   <p className="text-gray-500 font-semibold">Goals</p>
-                  <p className="text-[#5627ff] font-semibold items-end ml-[65%] sm:ml-[55%]">0/5 days</p>
+                  <p className="text-[#5627ff] font-semibold items-end ml-[65%] sm:ml-[50%]">0/5 days</p>
                 </div>
                 <div className="py-2 flex">
                   <p className="text-gray-500 font-semibold">Pixels</p>
