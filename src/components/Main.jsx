@@ -7,6 +7,11 @@ import certificate from "../assets/certificate.png";
 import searchImg from "../assets/search.png";
 import iconRectangle from "../assets/Rectangle.png";
 import KImg from "../assets/K.png";
+import profile1 from "../assets/profile-1.png";
+import profile2 from "../assets/profile-2.png";
+import profile3 from "../assets/profile-3.png";
+import weekly from "../assets/weekly.png";
+// import class from "./chartBar.module.css";
 
 const Main = () => {
   return (
@@ -141,25 +146,103 @@ const Main = () => {
               <img
                 src={iconRectangle}
                 alt="/icons"
-                className="tracking-widest items-center"
+                className="tracking-widest max-h-[80px] w-full items-center"
               />
             </div>
-            <div className=" h-screen w-full flex flex-col items-center bg-[#ffffff] ">
+            <div className="  h-screen w-full flex flex-col items-center bg-[#ffffff] ">
               <img
                 src={KImg}
                 alt="/Kimg"
                 className="h-[80px] w-[80px] relative top-[-4%]"
               ></img>
+              <div>
+                <h1 className="text-center font-mediumbold text-xl relative">
+                  Koteru Prashanth Reddy
+                </h1>
+                <p className="text-gray-600 text-center">C-Level</p>
+              </div>
 
-              <h1 className="text-center font-mediumbold text-xl relative">
-                Koteru Prashanth Reddy
-              </h1>
-              <p className="text-gray-600">C-Level</p>
-            </div>
-            <div className="">
-            <h1 className="text-center font-mediumbold text-xl relative">
-                Koteru Prashanth Reddy
-              </h1>
+              <div className="pt-5 mt-5 w-full">
+                <h1 className="ml-[5%] font-mediumbold text-xl text-black relative">
+                  Profile Strength
+                </h1>
+                {/* flex items-center justify-between max-w-[330px] m-auto py-4 */}
+                <div className=" flex items-center justify-between max-w-full ml-[5%] m-auto py-4">
+                  <div className="relative divide-x-2 divide-white w-[95%] mt-5 rounded-full bg-[#e9e9ea] border items-center text-center justify-between place-items-center">
+                    <div className="w-[20%] rounded-full p-2 bg-[#5627FF] h-full"></div>
+                    <div className="absolute top-[-60%] sm:top-[-40%] p-[2%] sm:ml-[20%] ml-[27%] bg-[#e9e9ea]">
+                      <img src={profile1} alt="/loader1_pic" />
+                    </div>
+                    <div className="absolute top-[-60%] sm:top-[-40%] p-[2%] sm:ml-[52%] ml-[60%] bg-[#e9e9ea]">
+                      <img src={profile2} alt="/loader1_pic" />
+                    </div>
+                    <div className="absolute top-[-60%] sm:top-[-40%] p-[2%] ml-[92%] sm:ml-[87%] bg-[#e9e9ea]">
+                      <img src={profile3} alt="/loader1_pic" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-10 w-full flex">
+                <h1 className="ml-[5%] font-mediumbold text-xl text-black">
+                  Weekly Activity
+                </h1>
+                <img
+                  src={weekly}
+                  alt=""
+                  className="sm:ml-[40%] ml-[50%] m-auto h-5 items-end"
+                />
+                {/* <div className="w-full p-2">
+                  <div className="chart-bar">
+                    <div className="chart-bar__inner">
+                      <div className={class.chart-bar__fill}>guyg</div>
+                    </div>
+                    <div className="chart-bar__label">hu</div>
+                  </div>
+                </div> */}
+              </div>
+              {/* <div className=" flex items-center bg-[black] justify-between max-w-1 h-20 ml-[5%] py-4"></div> */}
+              <div className=" flex items-center justify-between max-w-full  h-48 py-4">
+                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                  <div className="relative p-2 h-[10%] mt-[700%] border-[#bbbbbf] bg-[#bbbbbf] border items-center text-center justify-between place-items-center"></div>
+                  M
+                </div>
+                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                  <div className="relative p-2 h-[10%] mt-[700%] border-[#bbbbbf] bg-[#bbbbbf] border items-center text-center justify-between place-items-center"></div>
+                  T
+                </div>{" "}
+                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                  <div className="relative p-2 h-[10%] mt-[700%] border-[#bbbbbf] bg-[#bbbbbf] border items-center text-center justify-between place-items-center"></div>
+                  W
+                </div>{" "}
+                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                  <div className="relative p-2 h-[10%] mt-[700%] border-[#5627FF] bg-[#5627FF] border items-center text-center justify-between place-items-center"></div>
+                  T
+                </div>{" "}
+                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                  <div className="relative p-2 h-[10%] mt-[700%] border-[#e5e4ff] bg-[#e5e4ff] border items-center text-center justify-between place-items-center"></div>
+                  F
+                </div>{" "}
+                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                  <div className="relative p-2 h-[10%] mt-[700%] border-[#e5e4ff] bg-[#e5e4ff] border items-center text-center justify-between place-items-center"></div>
+                  S
+                </div>{" "}
+                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                  <div className="relative p-2 h-[10%] mt-[700%] border-[#e5e4ff] bg-[#e5e4ff] border items-center text-center justify-between place-items-center"></div>
+                  S
+                </div>{" "}
+              </div>
+              <div className="w-full mt-5 ml-5 p-5">
+                <div className="py-2 flex">
+                  <p className="text-gray-500 font-semibold">Goals</p>
+                  <p className="text-[#5627ff] font-semibold items-end ml-[65%] sm:ml-[55%]">0/5 days</p>
+                </div>
+                <div className="py-2 flex">
+                  <p className="text-gray-500 font-semibold">Pixels</p>
+                  <p className="text-[#5627ff] font-semibold items-end ml-[75%] sm:ml-[75%]">0</p>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>

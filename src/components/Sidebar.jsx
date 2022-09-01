@@ -56,11 +56,10 @@ const Sidebar = () => {
             </ul>
             </div>
             <div className="p-2 mt-auto items-center justify-between text-center w-full">
-              <button className="rounded-lg hover:bg-[#000000] bg-gray-700 hover:text-[#F8DB46] px-5 p-1">Invite a friend</button>
+              <button className="rounded-lg hover:bg-[#000000] bg-[#37383f] hover:text-[#F8DB46] px-5 p-1">Invite a friend</button>
             </div>
-          </aside>
+          </aside>      
 
-          
         </div>
       </div>
     </div>
