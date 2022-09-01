@@ -12,7 +12,7 @@ const Sidebar = () => {
             <div className="py-4">
 
            
-            <ul className="ml-10 items-center  ">
+            <ul className="ml-10 items-center ">
               <a href="/" className="">
                 <li className="py-3 hover:text-[#F8DB46] text-sm">
                   Home
@@ -55,7 +55,7 @@ const Sidebar = () => {
               </a>
             </ul>
             </div>
-            <div className="p-2 mt-40 items-center justify-between text-center w-full">
+            <div className="p-2 mt-auto items-center justify-between text-center w-full">
               <button className="rounded-lg hover:bg-[#000000] bg-gray-700 hover:text-[#F8DB46] px-5 p-1">Invite a friend</button>
             </div>
           </aside>
