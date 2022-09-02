@@ -147,7 +147,9 @@ const Main = () => {
                 className="tracking-widest max-h-[80px] w-full items-center"
               />
             </div>
-            <div className="  h-full w-full flex flex-col items-center bg-[#ffffff] ">
+            {/* <div className="  h-full w-full flex flex-col items-center bg-[#ffffff] "> */}
+            <div className="  w-full flex flex-col items-center bg-[#ffffff] ">
+
               <img
                 src={KImg}
                 alt="/Kimg"
