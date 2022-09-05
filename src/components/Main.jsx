@@ -16,7 +16,7 @@ import {BsThreeDots} from 'react-icons/bs'
 const Main = () => {
   return (
     <>
-      <div className="bg-[#F3F3F3] font-inter pb-0 window:pb-0  sm:rounded-tl-3xl rounded-none sm:rounded-bl-3xl h-full w-full">
+      <div className="overflow-hidden bg-[#F3F3F3] font-inter sm:rounded-tl-3xl rounded-none sm:rounded-bl-3xl h-full w-full">
         <div className="px-5 justify-between p-4 mx-5 sm:px-10 flex">
           <h1 className="text-3xl font-extrabold">Home</h1>
           {/* <div className="relative max-w-md flex rounded-full bg-[#e9e9ea] border border-gray-300 pl-1 pb-1 items-end justify-between text-right place-items-end focus-within:border-blue-500 focus-within:ring-blue-200 focus-within:ring-4"> */}

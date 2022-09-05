@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="text-white ">
+    <div className="text-white">
       <div className="h-screen w-full bg-black">
         <div class="hidden md:flex">
           <aside class="h-screen  sticky top-0 bg-[#21222A]">
