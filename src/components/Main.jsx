@@ -47,7 +47,7 @@ const Main = () => {
 
             <div className="mt-0 px-3 p-4 mx-5 sm:px-10 grid md:grid-cols-2 gap-8">
               {/* card 1 */}
-              <div className="bg-white w-full mx-2 max-w-[100%] rounded-lg hover:scale-105 ease-in duration-300">
+              <div className="bg-white shadow-lg shadow-gray-300 w-full mx-2 max-w-[100%] rounded-lg hover:scale-105 ease-in duration-300">
                 {/* <div className="relative flex bg-white h-auto w-full rounded-xl p-4 group"> */}
                 {/* <div className=""></div> */}
                 <div className="m-3 sm:m-5 flex rounded-lg ">
@@ -91,7 +91,7 @@ const Main = () => {
 
               {/* card 2 */}
 
-              <div className="bg-white w-full mx-2 rounded-lg hover:scale-105 ease-in duration-300">
+              <div className="bg-white shadow-lg shadow-gray-300 w-full mx-2 rounded-lg hover:scale-105 ease-in duration-300">
                 {/* <div className=""></div> */}
                 <div className="relative m-3 sm:m-5 flex rounded-lg ">
                   <img
@@ -236,8 +236,8 @@ const Main = () => {
                 ></img> */}
             {/* </div> */}
 
-            <div className="relative hover:scale-105 ease-in duration-300 sm:h-1217 sm:w-320 w-full flex flex-col items-center bg-[#ffffff] ">
-              <div className="absolute rounded-full top-[-8%] h-[90px] w-[90px] bg-[#ffffff] p-[4.5px] sm:p-[2%] items-center text-center justify-center ">
+            <div className="relative hover:scale-105 ease-in duration-300 sm:h-1217 shadow-lg shadow-gray-300 sm:w-320 w-full flex flex-col items-center bg-[#ffffff] ">
+              <div className="absolute rounded-full top-[-8%] h-[90px] w-[90px]  bg-[#ffffff] p-[4.5px] sm:p-[2%] items-center text-center justify-center ">
                 <img
                   src={KImg}
                   alt="/Kimg"
