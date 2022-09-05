@@ -148,7 +148,7 @@ const Main = () => {
 
                   {/* <div className="flex rounded-lg sm:ml-5 items-center w-full max-w-full"> */}
                   <div className="flex rounded-lg items-center w-full max-w-full ml-3">
-                    <p className="ml-3 mr-6 text-sm max-w-[80%] text-gray-700 h-auto">
+                    <p className="ml-3 mr-6 text-sm max-w-[90%] text-gray-700 h-auto">
                       Start improving your design skills today. Browse our
                       course catalog and enroll in a course.
                     </p>
