@@ -17,10 +17,10 @@ const Main = () => {
   return (
     <>
       <div className="overflow-hidden bg-[#F3F3F3] font-inter sm:rounded-tl-3xl rounded-none sm:rounded-bl-3xl h-full w-full">
-        <div className="px-5 justify-between p-4 mx-5 sm:px-10 flex">
+        <div className="px-5 justify-between w-full p-4 mx-5 sm:px-10 flex">
           <h1 className="text-3xl font-extrabold">Home</h1>
           {/* <div className="relative max-w-md flex rounded-full bg-[#e9e9ea] border border-gray-300 pl-1 pb-1 items-end justify-between text-right place-items-end focus-within:border-blue-500 focus-within:ring-blue-200 focus-within:ring-4"> */}
-          <div className="relative max-w-[60%] flex rounded-full bg-[#e9e9ea] justify-between pl-1 pb-1 items-end text-right place-items-end focus-within:border-blue-500 focus-within:ring-blue-200 focus-within:ring-4">
+          <div className="relative max-w-[50%] w-64 flex rounded-full bg-[#e9e9ea] justify-between pl-1 pb-1 items-end text-right place-items-end focus-within:border-blue-500 focus-within:ring-blue-200 focus-within:ring-4">
             {/* <img src={searchImg} alt="/searchimg" /> */}
             <BiSearch className="h-full text-gray-500 mt-2 mb-0 top-[-10%] ml-2 text-2xl" />
 
