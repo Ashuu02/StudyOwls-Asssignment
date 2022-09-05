@@ -3,17 +3,16 @@ import stackImg from "../assets/stack.png";
 import level from "../assets/difficulty-level.png";
 import az from "../assets/az.png";
 import certificate from "../assets/certificate.png";
-import searchImg from "../assets/search.png";
 import iconRectangle from "../assets/Rectangle.png";
 import KImg from "../assets/K.png";
 import profile1 from "../assets/profile-1.png";
 import profile2 from "../assets/profile-2.png";
 import profile3 from "../assets/profile-3.png";
-import weekly from "../assets/weekly.png";
 import { FiPlay } from "react-icons/fi";
-import { BsPlay } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
 import {BsThreeDots} from 'react-icons/bs'
+
+
 const Main = () => {
   return (
     <>
@@ -325,7 +324,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-      ;
+      
     </>
   );
 };

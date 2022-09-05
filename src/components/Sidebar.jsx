@@ -63,7 +63,7 @@ const Sidebar = () => {
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default Sidebar;

@@ -7,7 +7,6 @@ function App() {
     <div className='flex bg-[#21222A]'>
       <Sidebar/>
       <Main/>
-      {/* <Profile/> */}
     </div>
   )
 }
