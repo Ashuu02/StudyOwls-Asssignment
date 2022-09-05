@@ -138,8 +138,8 @@ const Main = () => {
 
 {/* ////////////////////////////////////////////////////////////////// */}
 {/* card 3 */}
-            <div className="mt-0 px-3 p-4 mx-5 sm:px-10 ">
-              <div className="hidden p-3 md:grid grid-flow-col-dense bg-white hover:scale-105 ease-in duration-300 mt-2 rounded-2xl ">
+            <div className="mt-0  px-3 p-4 mx-5 sm:px-10 ">
+              <div className="hidden shadow-xl shadow-gray-400 p-3 md:grid grid-flow-col-dense bg-white hover:scale-105 ease-in duration-300 mt-2 rounded-2xl ">
                 <div className="">
                   <h2 className="text-2xl w-[297px] m-4 w-320 sm:ml-3 mt-3 pt-2 flex rounded-lg text-black sm:w-full font-inter font-semibold sm:p-3 font-family:Inter text-left ">
                     You haven't enrolled in any courses
@@ -171,7 +171,7 @@ const Main = () => {
                 </div>
               </div>
 
-              <div className="sm:hidden p-3 bg-white hover:scale-105 ease-in duration-300 mt-2 rounded-2xl">
+              <div className="sm:hidden p-3 shadow-xl shadow-gray-400 bg-white hover:scale-105 ease-in duration-300 mt-2 rounded-2xl">
                 <div className=" ">
                   <h2 className="text-2xl m-4 sm:ml-3 mt-3 pt-2 flex rounded-lg text-black w-full font-inter font-semibold sm:p-3 font-family:Inter text-left ">
                     You haven't enrolled in any courses
