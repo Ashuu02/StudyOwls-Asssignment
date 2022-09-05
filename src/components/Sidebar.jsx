@@ -56,7 +56,7 @@ const Sidebar = () => {
             </ul>
             </div>
             <div className="p-2 mt-20 items-center justify-between text-center w-full">
-              <button className="hover:scale-105 ease-in duration-300 rounded-lg hover:bg-[#000000] bg-[#37383f] hover:text-[#F8DB46] px-5 p-1">Invite a friend</button>
+              <button className="hover:scale-105 font-bold  text-gray-200 ease-in duration-300 rounded-lg hover:bg-[#000000] bg-[#37383f] hover:text-[#F8DB46] px-5 p-1">Invite a friend</button>
             </div>
           </aside>      
 
