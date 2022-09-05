@@ -173,7 +173,7 @@ const Main = () => {
 
               <div className="sm:hidden p-3 shadow-xl shadow-gray-400 bg-white hover:scale-105 ease-in duration-300 mt-2 rounded-2xl">
                 <div className=" ">
-                  <h2 className="text-2xl m-4 sm:ml-3 mt-3 pt-2 flex rounded-lg text-black w-full font-inter font-semibold sm:p-3 font-family:Inter text-left ">
+                  <h2 className="text-2xl max-w-[90%] m-4 sm:ml-3 mt-3 pt-2 flex rounded-lg text-black w-full font-inter font-semibold sm:p-3 font-family:Inter text-left ">
                     You haven't enrolled in any courses
                   </h2>
                 </div>
