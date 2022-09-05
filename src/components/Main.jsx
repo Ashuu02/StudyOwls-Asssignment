@@ -60,8 +60,8 @@ const Main = () => {
                     height={58}
                   />
                   <div className=" items-end justify-top text-right place-items-end w-full">
-                    <button className="rounded-lg font-inter bg-[#f3f3f3] px-5 p-1">
-                      <p className="font">
+                    <button className="rounded-lg font-inter bg-[#f3f3f3] p-1">
+                      <p className="font-bold text-sm px-1">
                       POPULAR
                       </p>
                     </button>
@@ -103,8 +103,10 @@ const Main = () => {
                     height={58}
                   />
                   <div className=" items-end justify-top text-right place-items-end w-full">
-                    <button className="rounded-lg font-inter bg-[#f3f3f3] px-5 p-1">
+                    <button className="rounded-lg font-inter bg-[#f3f3f3] p-1">
+                    <p className="font-bold text-sm px-1">
                       POPULAR
+                      </p>
                     </button>
                   </div>
                 </div>
