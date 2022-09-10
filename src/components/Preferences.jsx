@@ -1,10 +1,11 @@
 import React from "react";
 import preferences from "../assets/preferences.png";
+import './Preferences.css';
 const Preferences = () => {
   return (
-    <div className=" rounded-2xl p-4 mt-3 bg-gray-400 w-full h-auto pl-[] items-center justify-between ">
+    <div className="pref rounded-2xl p-4 mt-3 w-full h-auto items-center justify-between ">
       <div className=" p-[32px] md:grid grid-flow-col-dense bg-white rounded-2xl ">
-        <div className="">
+        <div className="w-[90%]">
           <h2 className="text-2xl w-[297px] w-320 flex rounded-lg text-black sm:w-full font-inter font-semibold font-family:Inter text-left ">
           You haven’t added your preferences
           </h2>

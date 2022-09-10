@@ -16,6 +16,10 @@ import JustReleased from "./JustReleased";
 import skillGraph from '../assets/skillGraph.png'
 import Preferences from "./Preferences";
 import SkillTests from "./SkillTests"
+import Extras from './Extras';
+import './Preferences.css';
+
+
 
 const Main = () => {
   return (
@@ -133,7 +137,7 @@ const Main = () => {
   
             {/* ////////////////////////////////////////////////////////////////// */}
             {/* card 3 */}
-            <div className=" rounded-2xl p-4 mt-3 bg-gray-400 w-full h-auto pl-[] items-center justify-between ">
+            <div className=" rounded-2xl p-4 mt-3 pref w-full h-auto pl-[] items-center justify-between ">
               <div className="hidden p-[32px] md:grid grid-flow-col-dense bg-white rounded-2xl ">
                 <div className="">
                   <h2 className="text-2xl max-w-[90%] flex rounded-lg text-black sm:w-full font-inter font-extrabold font-family:Inter text-left ">
@@ -205,6 +209,8 @@ const Main = () => {
             </div>
             <Preferences/>
             <SkillTests/>
+            <Extras/>
+            
           </div>
 
           {/* //////////////////////////////////////////////////////////////////////////////////////////// */}

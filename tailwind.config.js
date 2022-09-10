@@ -18,7 +18,7 @@ module.exports = {
         extrabold: 900,
         'extra-bold': 800,
         black: 1000,
-      }
+      },
     },
   },
   plugins: [],
