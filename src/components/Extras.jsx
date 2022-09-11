@@ -97,7 +97,10 @@ const Extras = () => {
       </div>
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0df4c0ac69f4afd4c9afe31de775e3dc777e27a7
     </div>
   );
 };
