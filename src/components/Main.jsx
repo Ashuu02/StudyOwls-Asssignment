@@ -13,36 +13,33 @@ import Navbar from "./Navbar";
 import { BsThreeDots } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
 import JustReleased from "./JustReleased";
-import skillGraph from '../assets/skillGraph.png'
+import skillGraph from "../assets/skillGraph.png";
 import Preferences from "./Preferences";
-import SkillTests from "./SkillTests"
-import Extras from './Extras';
-import './Preferences.css';
-
-
+import SkillTests from "./SkillTests";
+import Extras from "./Extras";
+import "./Preferences.css";
+import Assessments from "./Assessments";
 
 const Main = () => {
   return (
     <>
       <div className="overflow-hidden px-[32px] bg-[#F3F3F3] font-inter sm:rounded-tl-3xl rounded-none sm:rounded-bl-3xl h-full w-full">
-        
-          <div class="fixed w-[100%] mb-4 z-[100]  h-20  items-center bg-[##f3f3f3] ">
-            <div className="flex z-[100px] w-full mt-5 ">
-              <div className="">
-                <h1 className="text-3xl  font-extrabold font-inter">Home</h1>
-              </div>
-              <div className="relative max-w-[50%] w-64 flex rounded-full sm:mr-0 mr-4 bg-[#e9e9ea] justify-between pl-1 pb-1  focus-within:border-blue-500 focus-within:ring-blue-200 focus-within:ring-4 items-end justify-top text-right place-items-end ml-[650px]">
-                <BiSearch className="h-full text-gray-500 mt-2 mb-0 top-[-10%] ml-2 text-2xl" />
+        <div className="fixed w-[100%] mb-4 z-[100]  h-20  items-center bg-[#f3f3f3] ">
+          <div className="flex z-[100px]  bg-[#f3f3f3] w-full mt-5 ">
+            <div className="bg-[#f3f3f3]">
+              <h1 className="text-3xl font-extrabold font-inter">Home</h1>
+            </div>
+            <div className="relative max-w-[50%]  w-64 flex rounded-full sm:mr-0 mr-4 bg-[#e9e9ea] justify-between pl-1 pb-1  focus-within:border-blue-500 focus-within:ring-blue-200 focus-within:ring-4 items-end justify-top text-right place-items-end ml-[750px]">
+              <BiSearch className="h-full text-gray-500 mt-2 mb-0 top-[-10%] ml-2 text-2xl" />
 
-                <input
-                  className="appearance-none bg-[#e9e9ea] border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                  type="text"
-                  placeholder="Search"
-                />
-              </div>
+              <input
+                className="appearance-none bg-[#e9e9ea] border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                type="text"
+                placeholder="Search"
+              />
             </div>
           </div>
-        
+        </div>
 
         <div className="flex-row sm:flex">
           {/* col 1 */}
@@ -83,7 +80,6 @@ const Main = () => {
                   </h2>
                 </div>
                 <div className="flex p-1 mt-[8px] mb-[-4px] mx-[-4px] text-sm">
-                  
                   <FiPlay className="hover:scale-110 top-[-20%] ease-in duration-100 font-extrabold h-full items-center text-center justify-center mt-1 text-gray-500" />
                   <p className="text-gray-500 px-1">25 lessons</p>
                   <img
@@ -117,7 +113,6 @@ const Main = () => {
                   <h2 className="w-full font-semibold">Design Terminology</h2>
                 </div>
                 <div className="flex p-1 mt-[8px] mb-[-4px] mx-[-4px] text-sm">
-      
                   <FiPlay className="hover:scale-110 top-[-20%] ease-in duration-100 font-extrabold h-full items-center text-center justify-center mt-1 text-gray-500" />
                   <p className="text-gray-500 px-1">25 lessons</p>
                   <img
@@ -133,8 +128,7 @@ const Main = () => {
             <div className="mt-3 sm:mt-4 font-extrabold">
               <h2 className="text-2xl">Continue Learning</h2>
             </div>
-     
-  
+
             {/* ////////////////////////////////////////////////////////////////// */}
             {/* card 3 */}
             <div className=" rounded-2xl p-4 mt-3 pref w-full h-auto pl-[] items-center justify-between ">
@@ -207,16 +201,15 @@ const Main = () => {
                 See all
               </p>
             </div>
-            <Preferences/>
-            <SkillTests/>
-            <Extras/>
-            
+            <Preferences />
+            <SkillTests />
+            <Extras />
           </div>
 
           {/* //////////////////////////////////////////////////////////////////////////////////////////// */}
 
           {/* col 2 */}
-                   <div className="mt-[80px] flex-col-1 pl-3">
+          <div className="mt-[80px] flex-col-1 pl-3">
             <div className="items-center rounded-t-3xl justify-between text-center">
               <img
                 src={iconRectangle}
@@ -366,9 +359,10 @@ const Main = () => {
               </button>
             </div>
           </div>
+
+          
         </div>
       </div>
-      {/* </main> */}
     </>
   );
 };
