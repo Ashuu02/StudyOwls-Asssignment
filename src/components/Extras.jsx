@@ -1,10 +1,13 @@
+
 import React from "react";
 import { BsCalendar4Event } from "react-icons/bs";
 import color from "../assets/color.svg";
 import toolkit from "../assets/toolkit.svg";
 import achievement from "../assets/achievement.png";
-import {IoRocketSharp} from "react-icons/io5"
-import {BsSlack} from 'react-icons/bs';
+import { IoRocketSharp } from "react-icons/io5";
+import { BsSlack } from "react-icons/bs";
+import stack2 from "../assets/stack2.png";
+import icons from "../assets/icons.png";
 
 const Extras = () => {
   return (
@@ -15,7 +18,7 @@ const Extras = () => {
         </h2>
       </div>
 
-            <div className="mt-4 grid md:grid-cols-2 gap-8">
+      <div className="mt-4 grid md:grid-cols-2 gap-8">
         {/* card 1 */}
         <div className="bg-white mb-2 border-spacing-1 text-[20px] hover:shadow-lg p-[24px] hover:shadow-gray-300 w-full max-w-[100%] rounded-2xl hover:scale-[101%] ease-in duration-100">
           <div className="flex mt-0">
