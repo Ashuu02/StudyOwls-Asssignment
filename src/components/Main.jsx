@@ -216,7 +216,7 @@ const Main = () => {
           {/* //////////////////////////////////////////////////////////////////////////////////////////// */}
 
           {/* col 2 */}
-          <div className="mt-[80px] flex-col-1 pl-3">
+                   <div className="mt-[80px] flex-col-1 pl-3">
             <div className="items-center rounded-t-3xl justify-between text-center">
               <img
                 src={iconRectangle}
@@ -225,35 +225,32 @@ const Main = () => {
               />
             </div>
 
-            <div className="relative sm:h-1217 shadow-lg shadow-gray-300 sm:w-[318px] w-full flex flex-col items-center bg-[#ffffff] ">
-              <div className="absolute rounded-full top-[-8%] h-[90px] w-[90px]  bg-[#ffffff] p-[4.5px] sm:p-[2%] items-center text-center justify-center ">
-                <img
-                  src={KImg}
-                  alt="/Kimg"
-                  className="h-[80px] items-center text-center justify-center absolute w-[80px] rounded-full"
-                ></img>
+            <div className="relative rounded-bl-2xl rounded-br-2xl p-[24px] w-full flex flex-col items-center bg-[#ffffff] ">
+              <div className="absolute rounded-full bg-white top-[-4%] h-[90px] w-[90px] p-[4.5px] sm:p-[2%] items-center  text-center justify-center ">
+
+                <div className="rounded-full right-[5.5%] absolute top-[5.5%] w-[80px] h-[80px] bg-blue-500 text-center items-center p-[6px] text-white">
+                  <h1 className="text-5xl mt-2 text-extrabold">K</h1>
+                </div>
               </div>
 
-              <div className="pt-[60px]">
-                <h2 className="w-full font-semibold">Koteru Prashanth Reddy</h2>
-                <p className="text-gray-600 text-center">C-Level</p>
+              <div className="mt-[32px] mb-[24px] items-center w-full text-center ">
+                <h2 className="w-full text-lg font-semibold">Koteru Prashanth Reddy</h2>
+                <p className="text-gray-600 mt-[4px] text-center">C-Level</p>
               </div>
 
-              <div className="pt-5 mt-5 w-full">
-                <h2 className="w-full font-semibold ml-[5%]">
-                  Profile Strength
-                </h2>
+              <div className="pt-[24px] border-y-[1px] pb-[24px] w-full">
+                <h2 className="w-full text-lg font-semibold">Profile Strength</h2>
                 {/* flex items-center justify-between max-w-[330px] m-auto py-4 */}
-                <div className=" flex items-center justify-between max-w-full ml-[5%] py-4">
-                  <div className="relative divide-x-2 divide-white w-[95%] mt-5 rounded-full bg-[#e9e9ea] border items-center text-center justify-between place-items-center">
-                    <div className="w-[20%] rounded-full p-2 bg-[#5627FF] h-full"></div>
-                    <div className="absolute top-[-60%] rounded-full sm:top-[-40%] p-[2%] sm:ml-[20%] ml-[27%] bg-[#e9e9ea]">
+                <div className=" flex items-center justify-between max-w-full py-4">
+                  <div className="relative  w-full mt-5 rounded-full bg-[#e9e9ea] border items-center text-center justify-between place-items-center">
+                    <div className="w-[20%]  rounded-full p-2 bg-[#5627FF] h-full"></div>
+                    <div className="absolute top-[-60%] border-[2px] border-white rounded-full sm:top-[-60%] p-[2%] sm:ml-[20%] ml-[27%] bg-[#e9e9ea]">
                       <img src={profile1} alt="/loader1_pic" />
                     </div>
-                    <div className="absolute top-[-60%] rounded-full sm:top-[-40%] p-[2%] sm:ml-[52%] ml-[60%] bg-[#e9e9ea]">
+                    <div className="absolute top-[-60%] border-[2px] border-white rounded-full sm:top-[-60%] p-[2%] sm:ml-[52%] ml-[60%] bg-[#e9e9ea]">
                       <img src={profile2} alt="/loader1_pic" />
                     </div>
-                    <div className="absolute top-[-60%] rounded-full sm:top-[-40%] p-[2%] ml-[90%] sm:ml-[87%] bg-[#e9e9ea]">
+                    <div className="absolute top-[-60%] border-[2px] border-white rounded-full sm:top-[-60%] p-[2%] ml-[90%] sm:ml-[89%] bg-[#e9e9ea]">
                       <img src={profile3} alt="/loader1_pic" />
                     </div>
                   </div>
@@ -261,45 +258,43 @@ const Main = () => {
               </div>
 
               <div className="mt-10 w-full flex">
-                <h2 className="w-full font-semibold ml-[5%]">
-                  Weekly Activity
-                </h2>
+                <h2 className="w-full text-lg font-bold">Weekly Activity</h2>
                 <div className="items-end w-full text-right text-2xl place-items-end justify-end ">
-                  <BsThreeDots className="items-end w-full text-right text-2xl place-items-end justify-end ml-[30%]" />
+                  <BsThreeDots className="items-end w-full text-right text-2xl place-items-end justify-end ml-[35%]" />
                 </div>
               </div>
 
-              <div className=" flex items-center justify-between max-w-full  h-48 py-4">
-                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+              <div className="flex justify-between max-w-full  h-48 py-4">
+                <div className="relative text-gray-500 m-2 ml-0 mr-6 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
                   <div className="relative p-2 h-[10%] rounded-full mt-[700%] border-[#bbbbbf] bg-[#bbbbbf] border items-center text-center justify-between place-items-center"></div>
                   M
                 </div>
-                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                <div className="relative text-gray-500 mr-6 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
                   <div className="relative p-2 h-[10%] rounded-full mt-[700%] border-[#bbbbbf] bg-[#bbbbbf] border items-center text-center justify-between place-items-center"></div>
                   T
                 </div>{" "}
-                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                <div className="relative text-gray-500 mr-6 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
                   <div className="relative p-2 h-[10%] rounded-full mt-[700%] border-[#bbbbbf] bg-[#bbbbbf] border items-center text-center justify-between place-items-center"></div>
                   W
                 </div>{" "}
-                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                <div className="relative text-gray-500 mr-6 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
                   <div className="relative p-2 h-[10%] rounded-full mt-[700%] border-[#5627FF] bg-[#5627FF] border items-center text-center justify-between place-items-center"></div>
                   T
                 </div>{" "}
-                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                <div className="relative text-gray-500 mr-6 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
                   <div className="relative p-2 h-[10%] rounded-full mt-[700%] border-[#e5e4ff] bg-[#e5e4ff] border items-center text-center justify-between place-items-center"></div>
                   F
                 </div>{" "}
-                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                <div className="relative text-gray-500 mr-6 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
                   <div className="relative p-2 h-[10%] rounded-full mt-[700%] border-[#e5e4ff] bg-[#e5e4ff] border items-center text-center justify-between place-items-center"></div>
                   S
                 </div>{" "}
-                <div className="relative text-gray-500 m-2 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
+                <div className="relative text-gray-500 w-[95%] h-[90%] mt-5 rounded-full bg-[#e9e9ea] items-center text-center justify-between place-items-center">
                   <div className="relative p-2 h-[10%] rounded-full mt-[700%] border-[#e5e4ff] bg-[#e5e4ff] border items-center text-center justify-between place-items-center"></div>
                   S
                 </div>{" "}
               </div>
-              <div className="w-full mt-5 p-5">
+              <div className="w-full mt-5 py-5">
                 <div className="flex mt-3 mr-0 sm:mt-4">
                   <p className="text-gray-500 font-semibold">Goals</p>
                   <p className="text-[#5627ff] font-semibold  items-end w-full text-right place-items-end ">
@@ -315,16 +310,60 @@ const Main = () => {
               </div>
 
               <div className="mt-10 w-full flex">
-                <h2 className="w-full font-semibold ml-[5%]">
-                  Skill Graph
-                </h2>
+                <h2 className="w-full text-lg font-bold">Skill Graph</h2>
                 <div className="items-end w-full text-right text-2xl place-items-end justify-end ">
-                  <BsThreeDots className="items-end w-full text-right text-2xl place-items-end justify-end ml-[30%]" />
+                  <BsThreeDots className="items-end w-full text-right text-2xl place-items-end justify-end ml-[35%] mb-[12px]" />
                 </div>
               </div>
               <div className="w-full">
                 <img src={skillGraph} alt="/skillGraph" />
               </div>
+
+              <Assessments />
+            </div>
+
+            <div className="relative mt-[24px] rounded-2xl p-[24px] w-full flex flex-col items-center bg-[#ffffff] ">
+              <div className="w-full mb-[8px]">
+                <div className="flex mt-[4px] w-full">
+                  <h2 className="w-full text-lg font-bold">Weekly Leaders</h2>
+                  <div className="items-end w-full text-right text-2xl place-items-end justify-end ">
+                    <BsThreeDots className="items-end w-full text-right text-2xl place-items-end justify-end ml-[30%]" />
+                  </div>
+                </div>
+
+                <p className="w-full text-left items-start text-gray-400 mt-[4px]">
+                  Worldwide
+                </p>
+              </div>
+
+              <div className="py-[16px] border-y-[1px] w-full grid">
+                <div className="flex w-full ">
+                  <div className=" ">
+                    <div className="rounded-full w-10 h-10 bg-blue-500 text-center items-center p-[6px] text-white">
+                      <h1 className="text-xl text-extrabold">S</h1>
+                    </div>
+                  </div>
+                  <div className="pl-[12px]">
+                    <div className="flex">
+                      <p className="text-base h-auto">Sergey Jech</p>
+                      <button className=" rounded-lg ml-[12px] font-inter bg-[#f3f3f3] p-1">
+                        <p className="font-bold text-xs px-1">PRO</p>
+                      </button>
+                    </div>
+                    <div>
+                      <p className="w-full text-sm text-left items-start text-gray-400 ">
+                        Product Designer
+                      </p>
+                    </div>
+                  </div>
+                  <div className="text-right items-end pl-[23.5%]">
+                    <p className=" text-gray-400 text-sm">28888px</p>
+                  </div>
+                </div>
+              </div>
+              <button className="text-lg px-[16px] mt-[12px] py-2 bg-gray-100 w-full rounded-xl text-extrabold">
+                <h2 className="w-full text-lg font-bold">View All</h2>
+              </button>
             </div>
           </div>
         </div>
